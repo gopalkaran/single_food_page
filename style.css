@@ -270,6 +270,7 @@ nav .nav-bar li .linethrough {
   main p {
     margin-top: 2rem;
     padding: 0 2rem;
+    margin-bottom: 2rem;
   }
 
   main section {
