@@ -150,6 +150,10 @@ figure img {
   border-radius: 50%;
 }
 
+.linethrough {
+  text-decoration: line-through solid #ef4444;
+}
+
 @media only screen and (max-width: 730px) {
   body {
     grid-template-columns: 0.1fr 1fr 0.1fr;
