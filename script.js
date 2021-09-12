@@ -1,9 +1,11 @@
 const navBarItems = document.querySelectorAll('.nav-item');
 navBarItems.forEach(item => {
-    item.addEventListener('click', () => {
+    item.addEventListener('click', () => {        
+        const [anchorTag] = item.children;
         navBarItems.forEach(item => {
-            item.classList.remove('linethrough');
+            const [anchorTag] = item.children;
+            anchorTag.classList.remove('linethrough');
         })
-        item.classList.add('linethrough');
+        anchorTag.classList.add('linethrough');
     })
 })

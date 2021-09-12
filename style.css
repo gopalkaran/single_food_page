@@ -150,7 +150,7 @@ figure img {
   border-radius: 50%;
 }
 
-.linethrough {
+nav .nav-bar li .linethrough {
   text-decoration: line-through solid #ef4444;
 }
 
